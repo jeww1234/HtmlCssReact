@@ -4,6 +4,8 @@ import H1_1 from './component/H1_1';
 import Img from './component/Img';
 import Audio from './component/Audio'
 import Table from './component/Table'
+import Box from './component/Box'
+import Lorem from './component/Lorem'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Img />
       <Audio />
       <Table />
+      <Box />
+      <Lorem />
     </div>
   );
 }
