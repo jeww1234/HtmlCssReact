@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import H1 from "./component/H1"
+import H1_1 from './component/H1_1';
+import Img from './component/Img';
+import Audio from './component/Audio'
+import Table from './component/Table'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <H1 />
+      <H1_1 />
+      <Img />
+      <Audio />
+      <Table />
     </div>
   );
 }
