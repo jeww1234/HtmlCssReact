@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Routes, Link } from 'react-router';
+import { Route, Routes} from 'react-router';
 import Google from './component/Google'
 import Home from './component/Home'
 
