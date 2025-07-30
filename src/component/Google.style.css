@@ -1,0 +1,73 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar *{
+    margin: 10px;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main input{
+    margin: 35px 0;
+}
+.input-area{
+    text-align: center;
+}
+.input-box{
+    width: 540px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid rgb(104, 103, 103);
+}
+.offered{
+    margin: 20px;
+}
+.offered a{
+    margin: 0 2px;
+}
+
+.footer{
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.footer div{
+    border: 1px solid black;
+    padding: 5px 5px;
+}
+
+.container{
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer2 > span > a{
+    padding: 5px 5px 5px 0;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-icon{
+    position: relative;
+    left: 40px;
+}
+
+.mic-icon{
+    position: relative;
+    right: 40px;
+}

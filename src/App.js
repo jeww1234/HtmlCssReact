@@ -1,22 +1,15 @@
 import './App.css';
-import H1 from "./component/H1"
-import H1_1 from './component/H1_1';
-import Img from './component/Img';
-import Audio from './component/Audio'
-import Table from './component/Table'
-import Box from './component/Box'
-import Lorem from './component/Lorem'
+import { Route, Routes, Link } from 'react-router';
+import Google from './component/Google'
+import Home from './component/Home'
 
 function App() {
   return (
     <div className="App">
-      <H1 />
-      <H1_1 />
-      <Img />
-      <Audio />
-      <Table />
-      <Box />
-      <Lorem />
+      <Routes>
+        <Route path='/google' element={<Google />}></Route>
+        <Route path='/' element={<Home />}> </Route>
+      </Routes>     
     </div>
   );
 }
