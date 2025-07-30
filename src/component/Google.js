@@ -8,8 +8,8 @@ const Google = () => {
       <div className="navbar">
         <Link to="/">Home</Link>
         <div>
-          <a href="#">Gmail</a>
-          <a href="#">Images</a>
+          <a href="">Gmail</a>
+          <a href="">Images</a>
           <i class="fa-solid fa-flask"></i>
           <i class="fa-solid fa-bars"></i>
           <i class="fa-solid fa-user"></i>
@@ -32,25 +32,25 @@ const Google = () => {
         </div>
         <div className="offered">
           Google offered in:
-          <a href="#">한국어</a>
-          <a href="#">日本語</a>
-          <a href="#">中國語</a>
-          <a href="#">English</a>
+          <a href="">한국어</a>
+          <a href="">日本語</a>
+          <a href="">中國語</a>
+          <a href="">English</a>
         </div>
       </div>
       <div className="footer">
         <div>Korea</div>
         <div className="footer2">
           <span>
-            <a href="#">About</a>
-            <a href="#">Advertise</a>
-            <a href="#">Business</a>
-            <a href="#">How Search Work</a>
+            <a href="">About</a>
+            <a href="">Advertise</a>
+            <a href="">Business</a>
+            <a href="">How Search Work</a>
           </span>
           <span>
-            <a href="#">Privacy</a>
-            <a href="#">Term</a>
-            <a href="#">Settings</a>
+            <a href="">Privacy</a>
+            <a href="">Term</a>
+            <a href="">Settings</a>
           </span>
         </div>
       </div>
