@@ -11,7 +11,8 @@ import { Link } from "react-router";
 const Home = () => {
   return (
     <div>
-      <Link to="/Google"><h1>3번쨰 과제</h1></Link>
+      <Link to="/Google"><h1>Google 사이트</h1></Link>
+      <Link to="/flex"><h1>Flex-box</h1></Link>
       <H1 />
       <H1_1 />
       <Img />

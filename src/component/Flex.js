@@ -1,9 +1,13 @@
 import React from "react";
 import "./Flex.style.css";
+import { Link } from "react-router";
 
 const Flex = () => {
   return (
     <div>
+      <h1>
+      <Link to="/">Home</Link>
+      </h1>
       <div className="container1">
         <div className="flex-box">box1</div>
         <div className="container2">
