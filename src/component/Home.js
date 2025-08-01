@@ -13,6 +13,7 @@ const Home = () => {
     <div>
       <Link to="/Google"><h1>Google 사이트</h1></Link>
       <Link to="/flex"><h1>Flex-box</h1></Link>
+      <Link to="/spotify"><h1>Spotify 사이트</h1></Link>
       <H1 />
       <H1_1 />
       <Img />
