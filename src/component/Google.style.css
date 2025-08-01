@@ -1,73 +1,107 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
 }
 
-.navbar *{
-    margin: 10px;
-    padding: 0;
+.navbar * {
+  margin: 10px;
+  padding: 0;
+  text-decoration: none;
+  color: black;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.main input{
-    margin: 35px 0;
-}
-.input-area{
-    text-align: center;
-}
-.input-box{
-    width: 540px;
-    height: 35px;
-    border-radius: 15px;
-    border: 1px solid rgb(104, 103, 103);
-}
-.offered{
-    margin: 20px;
-}
-.offered a{
-    margin: 0 2px;
+.navbar a:hover {
+  text-decoration: underline;
 }
 
-.footer{
-    border: 2px solid black;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    display: flex;
-    flex-direction: column;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.footer div{
-    border: 1px solid black;
-    padding: 5px 5px;
+.main img{
+    margin-top: 120px;
 }
-
-.container{
-    height: 730px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.main input {
+  margin: 35px 0 15px 0;
 }
 
-.footer2 > span > a{
-    padding: 5px 5px 5px 0;
+.main button {
+  margin: 5px;
+  border-radius: 4px;
+  border-color: gainsboro;
 }
 
-.footer2{
-    display: flex;
-    justify-content: space-between;
+.main button:hover {
+  box-shadow: 0 1px 3px rgba(71, 71, 71, 0.24);
+  background-color: #686666;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
 }
 
-.search-icon{
-    position: relative;
-    left: 40px;
+.input-area {
+  text-align: center;
 }
 
-.mic-icon{
-    position: relative;
-    right: 40px;
+.input-box {
+  width: 540px;
+  height: 35px;
+  border-radius: 15px;
+  border: 1px solid rgb(163, 163, 163);
+  padding: 0 45px;
+}
+.offered {
+  margin: 20px;
+}
+.offered a {
+  margin: 0 2px;
+}
+
+.footer {
+  background-color: rgb(228, 223, 223);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer div {
+  padding: 5px 15px
+}
+
+.footer div:first-child{
+    border-bottom: 1px solid black;
+}
+
+.container {
+  height: 720px;
+}
+
+.footer2 > span > a {
+  padding: 5px 5px 5px 0;
+  text-decoration: none;
+  color: black;
+}
+.footer2 > span > a:hover{
+    text-decoration: underline;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-icon {
+  position: relative;
+  left: 40px;
+  color: gray;
+}
+
+.mic-icon {
+  position: relative;
+  right: 40px;
+  color: gray;
 }
