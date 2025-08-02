@@ -1,0 +1,83 @@
+[
+    {
+  "id": "0",
+  "title": "NO MATTER WHAT",
+  "embedUrl": "https://www.youtube.com/embed/cqfQ0_vi4eM?enablejsapi=1" ,
+  "ReleaseDate" : "2016년",
+  "Genre" : "kpop",
+  "Producer" : "SM",
+  "Artists" : "보아, 빈지노"
+},{
+  "id": "1",
+  "title": "GOLDEN",
+  "embedUrl": "https://www.youtube.com/embed/yebNIHKAC4A?enablejsapi=1",
+  "ReleaseDate" : "2025년",
+  "Genre" : "kpop",
+  "Producer" : "IDO, 24, TEDDY",
+  "Artists" : "HUNTR/X"
+},{
+  "id": "2",
+  "title": "SHOUT OUT",
+  "embedUrl": "https://www.youtube.com/embed/GxcYL1QMJbI?enablejsapi=1",
+  "ReleaseDate" : "2014년",
+  "Genre" : "kpop",
+  "Producer" : "맥스 마틴, 셸백",
+  "Artists" : "테일러 스위프트"
+},{
+  "id": "3",
+  "title": "ON THE FLOOR",
+  "embedUrl": "https://www.youtube.com/embed/-Wg8ySt9tO0?enablejsapi=1",
+  "ReleaseDate" : "2011년",
+  "Genre" : "pop",
+  "Producer" : "RedOne",
+  "Artists" : "제니퍼 로페즈"
+},{
+  "id": "4",
+  "title": "1,000,000 x BETTER",
+  "embedUrl": "https://www.youtube.com/embed/0N9kLhx8gRY?enablejsapi=1",
+  "ReleaseDate" : "2020년",
+  "Genre" : "pop",
+  "Producer" : "제임스, 앤디",
+  "Artists" : "Griff & HONNE"
+},{
+  "id": "5",
+  "title": "뮤덕이네",
+  "embedUrl": "https://www.youtube.com/embed/4FpE00m-HdA?enablejsapi=1",
+  "ReleaseDate" : "몰라용",
+  "Genre" : "kpop",
+  "Producer" : "AI 뮤덕이",
+  "Artists" : "Ai 뮤덕이"
+},{
+  "id": "6",
+  "title": "KINGS AND QUEENS",
+  "embedUrl": "https://www.youtube.com/embed/jH1RNk8954Q?enablejsapi=1",
+  "ReleaseDate" : "2020년",
+  "Genre" : "pop",
+  "Producer" : "서쿳, 레드원",
+  "Artists" : "에이바 맥스"
+},{
+  "id": "7",
+  "title": "Oh NaNa",
+  "embedUrl": "https://www.youtube.com/embed/yPTcKSVAEvA?enablejsapi=1",
+  "ReleaseDate" : "2016년",
+  "Genre" : "kpop",
+  "Producer" : "ZOOBEATER SOUND, 낯선",
+  "Artists" : "KARD"
+},{
+  "id": "8",
+  "title": "사랑의 멜로디",
+  "embedUrl": "https://www.youtube.com/embed/7mgOU0AiXgk?enablejsapi=1",
+  "ReleaseDate" : "2006년",
+  "Genre" : "jpop",
+  "Producer" : "호리우치 마키",
+  "Artists" : "KOKIA"
+},{
+  "id": "9",
+  "title": "뮤덕이네",
+  "embedUrl": "https://www.youtube.com//embed/Gx4mXFc6E2A?enablejsapi=1",
+  "ReleaseDate" : "몰라용",
+  "Genre" : "kpop",
+  "Producer" : "AI 뮤덕이",
+  "Artists" : "AI 뮤덕이"
+}
+]

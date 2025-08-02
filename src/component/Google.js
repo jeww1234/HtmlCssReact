@@ -40,7 +40,7 @@ const Google = () => {
       </div>
       <div className="footer">
         <div>Korea</div>
-        <div className="footer2">
+        <div className="footer2-11">
           <span>
             <a href="https://www.google.com/">About</a>
             <a href="https://www.google.com/">Advertise</a>

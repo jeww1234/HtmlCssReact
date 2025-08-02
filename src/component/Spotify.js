@@ -1,6 +1,9 @@
 import React from "react";
 import "./Spotify.style.css";
 import { Link } from "react-router";
+import VideoCard from "./VideoCard";
+import Carousel from "react-bootstrap/Carousel";
+import FeeCard from "./FeeCard";
 
 const Spotify = () => {
   return (
@@ -35,6 +38,43 @@ const Spotify = () => {
           </div>
         </div>
       </main>
+
+      <article>
+        <Carousel
+          indicators={false}
+          data-bs-theme="dark"
+          interval={null}
+          className="Carousel-box"
+          onSelect={(selectedIndex, e) => {
+            // 슬라이드가 변경될 때 실행됨
+            // 현재 모든 iframe에 정지 명령 보내기
+            const iframes = document.querySelectorAll("iframe");
+            iframes.forEach((iframe) => {
+              iframe.contentWindow?.postMessage(
+                JSON.stringify({
+                  event: "command",
+                  func: "pauseVideo",
+                  args: [],
+                }),
+                "*"
+              );
+            });
+          }}
+        >
+          {[...Array(10)].map((_, i) => (
+            <Carousel.Item>
+              <VideoCard id={i} />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </article>
+        
+
+      <article>
+        <FeeCard />
+      </article>
+
+
       <footer className="footer2">
         <div className="footer-1">
           <div className="footer-2">

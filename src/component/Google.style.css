@@ -77,22 +77,23 @@
 }
 
 .container {
-  height: 720px;
+  height: 20px;
+}
+.footer2-11 {
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer2 > span > a {
+.footer2-11 > span > a {
   padding: 5px 5px 5px 0;
   text-decoration: none;
   color: black;
 }
-.footer2 > span > a:hover{
+.footer2-11 > span > a:hover{
     text-decoration: underline;
 }
 
-.footer2 {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .search-icon {
   position: relative;
