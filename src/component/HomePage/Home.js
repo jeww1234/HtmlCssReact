@@ -9,15 +9,8 @@ import logo from "./logo.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import Carousel from "react-bootstrap/Carousel";
-import { useState } from "react";
 
 const Home = () => {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
-  };
   return (
     <div className="Home">
       <Navbar expand="lg" className="Home-Navbar-bg sticky-top">
