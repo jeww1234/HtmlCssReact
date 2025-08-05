@@ -180,7 +180,7 @@ footer {
     justify-content: space-between;
   }
   .local {
-    height: clamp(400px, calc(100vh - 30px), 800px);
+    height: clamp(400px, calc(90vh - 30px), 800px);
     display: flex;
     text-align: center;
   }
@@ -190,7 +190,7 @@ footer {
     max-width: clamp(300px, 50vw, 750px);
   }
   .textBox {
-    font-size: 1.35vw;
+    font-size: 2vw;
   }
 }
 

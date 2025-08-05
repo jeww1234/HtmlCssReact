@@ -131,14 +131,14 @@ const Home = () => {
         className="text-center p-3"
         style={{ backgroundColor: "#2C3E50", color: "#F2DCDC" }}
       >
-        <div style={{ fontSize: "3rem" }}>K-pop 정신</div>
-        <div style={{ fontSize: "1.5rem" }}>
+        <div style={{ fontSize: "5vw" }}>K-pop 정신</div>
+        <div style={{ fontSize: "5vw" }}>
           우리는 무대를 꿈꾸고, 그 꿈을 마신다.
         </div>
-        <div style={{ fontSize: "1.5rem" }}>
+        <div style={{ fontSize: "4vw" }}>
           열정은 리듬이 되고, 감동은 커피 향이 된다.
         </div>
-        <Button style={{ marginTop: "1rem" }}>
+        <Button style={{ fontSize: "2.5vw"}} className="m-3">
           한 잔의 K-Coffee로 오늘을 특별하게
         </Button>
       </div>
@@ -191,7 +191,7 @@ const Home = () => {
       </Container>
 
       <Row className="local p-0 m-0">
-        <Col md={7} sm={12} className="imgBox">
+        <Col lg={7} md={12} className="imgBox">
           <div>
             <img
               src="https://www.ygnews.co.kr/news/photo/202107/304085_24722_233.jpg"
@@ -199,7 +199,7 @@ const Home = () => {
             />
           </div>
         </Col>
-        <Col md={5} sm={12} className="text-left fw-bolder">
+        <Col lg={5} md={12} className="text-left fw-bolder">
         <div className="textBox">
           <div>
             <p>전국 어디에서나 K-Coffee와 함께!</p>
